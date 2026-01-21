@@ -16,6 +16,16 @@ One end-to-end loop: **spec → patch → test → document → check**.
 - Run verification locally
 - Iterate until `devtools::check()` is clean
 
+## Why this loop works
+
+Agentic tooling saves time by generating code and tests quickly, but quality comes from repeating the same engineering loop:
+
+- **Spec**: write acceptance criteria you can test.
+- **Patch**: make minimal, safe edits.
+- **Test**: prove behavior (including failures) with `testthat`.
+- **Document**: keep roxygen and examples aligned with behavior.
+- **Check**: trust `devtools::check()` over subjective review.
+
 ## Inputs you need
 
 - Package name + goal of the change (1 sentence)
@@ -48,6 +58,13 @@ R CMD check .
 - `devtools::test()` passes
 - `devtools::check()` passes (or known NOTE is justified and documented)
 
+## Engineering standards (quick checklist)
+
+- **API clarity**: inputs validated; outputs stable; errors actionable (`cli::cli_abort()`).
+- **Namespacing discipline**: production code uses `pkg::fun` (avoid `library()` in package code).
+- **Test discipline**: add tests for new behavior and every bug fix; keep tests deterministic.
+- **Change discipline**: minimal diff; avoid broad refactors unless required by the task.
+
 ## If the agent gets “lost”
 
 Use this to reset the thread and re-anchor the scope:
@@ -65,4 +82,3 @@ ACCEPTANCE CRITERIA:
 2) ...
 3) ...
 ```
-

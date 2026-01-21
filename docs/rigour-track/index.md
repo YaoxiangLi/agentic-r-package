@@ -9,3 +9,6 @@ has_children: true
 
 Deeper engineering topics (optional) when you want to harden a package for long-term maintenance.
 
+Start here when you want the “non-negotiables” in one place:
+
+- [Engineering standards (non-negotiables)](engineering-standards/)

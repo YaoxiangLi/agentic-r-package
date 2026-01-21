@@ -9,6 +9,12 @@ has_children: false
 
 Common failure modes + recovery steps.
 
+## Agent output issues
+
+- Partial snippets / missing context: ask for *full drop-in function definitions* and paste only the relevant current code + errors.
+- Over-scoped refactors: restate constraints (“minimal diff”, “no broad refactors”) and narrow the SCOPE to one file/function cluster.
+- Brittle tests: prefer asserting on values/classes; only assert message text when it’s part of the user-facing contract.
+
 ## `devtools::document()` problems
 
 - `RoxygenNote` changes unexpectedly: update `DESCRIPTION` (let roxygen write it) and commit the change.
@@ -27,9 +33,14 @@ Common failure modes + recovery steps.
 - `Non-standard file/directory found at top level`: keep the Jekyll site in `docs/` (not package root) when building a package tarball.
 - Windows path issues: normalize paths (`normalizePath(..., winslash = "/", mustWork = FALSE)`), avoid hard-coded drive letters.
 
+## Keeping the codebase healthy over time
+
+- Don’t merge without green `devtools::check()` (or a documented, justified NOTE).
+- Keep dependencies intentional; prune unused packages periodically.
+- Prefer consistent error classes/messages; treat them as part of the API.
+
 ## Getting back to a small scope
 
 Paste a handoff summary and restart the thread:
 
 {% include handoff-summary.md %}
-
