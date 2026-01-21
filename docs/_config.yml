@@ -1,0 +1,10 @@
+title: "Agentic R Package Development"
+remote_theme: just-the-docs/just-the-docs
+permalink: pretty
+
+search_enabled: true
+enable_copy_code_button: true
+
+plugins:
+  - jekyll-remote-theme
+
