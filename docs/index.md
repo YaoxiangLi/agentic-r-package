@@ -6,7 +6,7 @@ nav_order: 1
 
 # Agentic R Package Development
 
-A copy/paste-first “cookbook + prompt library” for building R packages with strict quality gates:
+A copy/paste-first cookbook + prompt library: a one-stop reference for agentic R package development with strict quality gates:
 
 - Use agents to generate useful code fast
 - Keep engineering standards as the guardrails
@@ -16,13 +16,13 @@ A copy/paste-first “cookbook + prompt library” for building R packages with 
 
 ## Use this like a tool
 
-- Do the first loop: Start Here → one end-to-end iteration.
+- Do the first loop: Start Here -> one end-to-end iteration.
 - Then live in Recipes + Prompt Library.
 - When things break, jump to Troubleshooting.
 
 ## The point (speed *with* standards)
 
-Agents are great at accelerating the “typing” part of engineering: scaffolding functions, writing tests, drafting roxygen, and proposing diffs. But stable, high-quality package code still comes from **engineering discipline**:
+Agents are great at accelerating the typing part of engineering: scaffolding functions, writing tests, drafting roxygen, and proposing diffs. But stable, high-quality package code still comes from **engineering discipline**:
 
 - Clear scope (small patches)
 - Explicit contracts (inputs/outputs/errors)

@@ -7,5 +7,4 @@ has_children: true
 
 # Prompt Library
 
-Reusable templates for spec, patching, tests, QA/review, and handoff summaries.
-
+Reusable templates for spec, patching, tests, QA/review, and handoff summaries. Use these to keep the same quality bar while you move faster.

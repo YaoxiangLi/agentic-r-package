@@ -1,14 +1,14 @@
 # Agentic R Package Development
 
-A practical reference for building and maintaining R packages with **fast iteration** and **strong engineering standards**. It’s designed to sit next to your editor: short pages, consistent structure, and blocks you can copy into your workflow.
+A one-stop, all-in-one reference for building and maintaining R packages with **fast iteration** and **strong engineering standards**. It's designed to sit next to your editor: short pages, consistent structure, and blocks you can copy into your workflow.
 
-If you use an assistant to draft code and tests, this book helps keep the codebase healthy and predictable: behavior is specified, changes are scoped, tests are added, docs are updated, and `devtools::check()` stays green.
+If you use agentic tooling to draft code and tests, this book helps keep the codebase healthy and predictable: behavior is specified, changes are scoped, tests are added, docs are updated, and `devtools::check()` stays green.
 
 **Site (recommended):** GitHub Pages (Jekyll + Just the Docs).
 
-## What’s inside
+## What's inside
 
-- **Start Here (60–90 min):** one full loop (spec → patch → test → document → check)
+- **Start Here (60-90 min):** one full loop (spec -> patch -> test -> document -> check)
 - **Recipes:** one page per task (add a function, fix a bug, refactor safely, add CI, etc.)
 - **Prompt Library:** reusable templates for patching, tests, QA/review, and handoffs
 - **Troubleshooting:** common failure modes and recovery steps
@@ -35,8 +35,8 @@ Then open `http://127.0.0.1:4000/`.
 ## GitHub Pages setup (public OK)
 
 - Important: GitHub will warn that **a private repo can publish a public Pages site**. If Pages is enabled, anything in `docs/` becomes publicly readable.
-- GitHub repo → **Settings** → **Pages** → **Build and deployment**
-  - **Source**: “Deploy from a branch”
+- GitHub repo -> **Settings** -> **Pages** -> **Build and deployment**
+  - **Source**: "Deploy from a branch"
   - **Branch**: `main` (or your default) and **Folder**: `/docs`
 - After saving, push commits to that branch; Pages rebuilds automatically.
 
@@ -49,4 +49,3 @@ baseurl: "/<repo>"
 ```
 
 For user/org sites (`https://<user>.github.io/`), leave `baseurl` unset.
-

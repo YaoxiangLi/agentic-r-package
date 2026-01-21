@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Start Here (60–90 min)
+title: Start Here (60-90 min)
 nav_order: 2
 has_children: false
 ---
 
-# Start Here (60–90 min)
+# Start Here (60-90 min)
 
-One end-to-end loop: **spec → patch → test → document → check**.
+One end-to-end loop: **spec -> patch -> test -> document -> check**.
 
 ## What you’ll do
 
