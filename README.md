@@ -1,8 +1,24 @@
-# Agentic R Package Development (Book)
+# Agentic R Package Development
 
-This repo is a plain-Markdown, copy/paste-first reference for **agentic (Codex-style) R package development** with quality gates (tests, docs, `R CMD check`).
+A practical reference for building and maintaining R packages with **fast iteration** and **strong engineering standards**. It’s designed to sit next to your editor: short pages, consistent structure, and blocks you can copy into your workflow.
 
-**Site (recommended):** GitHub Pages using Jekyll + Just the Docs.
+If you use an assistant to draft code and tests, this book helps keep the codebase healthy and predictable: behavior is specified, changes are scoped, tests are added, docs are updated, and `devtools::check()` stays green.
+
+**Site (recommended):** GitHub Pages (Jekyll + Just the Docs).
+
+## What’s inside
+
+- **Start Here (60–90 min):** one full loop (spec → patch → test → document → check)
+- **Recipes:** one page per task (add a function, fix a bug, refactor safely, add CI, etc.)
+- **Prompt Library:** reusable templates for patching, tests, QA/review, and handoffs
+- **Troubleshooting:** common failure modes and recovery steps
+- **Rigour Track:** deeper standards (dependencies, testing strategy, CI/check discipline)
+
+## Who this is for
+
+- R package maintainers who want higher leverage without compromising quality
+- Teams who want consistent standards across contributions
+- Anyone who prefers “do this next” reference pages over long-form tutorials
 
 ## Local preview
 
