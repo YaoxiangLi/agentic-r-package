@@ -39,7 +39,7 @@ ACCEPTANCE CRITERIA:
 1) testthat (3e) is set up and a sample test runs.
 2) Roxygen workflow is enabled; `devtools::document()` runs clean.
 3) `devtools::check()` runs clean (or any NOTE is explained).
-4) Add a short `AGENTS.md` with project rules (scope, namespacing, errors, tests).
+4) Add a short `AGENTS.md` with project rules (scope, namespacing, errors, tests). Use the template from `docs/rigour-track/agents-md.md`.
 
 CURRENT STATE:
 <paste current tree or say “empty repo”>
@@ -71,4 +71,3 @@ devtools::check()
 - [ ] Docs generate with `devtools::document()`
 - [ ] `devtools::check()` is clean (or justified NOTE documented)
 - [ ] Project rules exist and are easy to follow (`AGENTS.md` / `CONTRIBUTING.md`)
-

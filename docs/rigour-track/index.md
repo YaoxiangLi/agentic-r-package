@@ -16,3 +16,4 @@ Start here when you want the “non-negotiables” in one place:
 Then use these workflow patterns to get consistently good results with assistants:
 
 - [Agentic workflow patterns (practical)](agentic-workflow-patterns/)
+- [AGENTS.md (project conventions that persist)](agents-md/)

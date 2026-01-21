@@ -33,6 +33,7 @@ Agentic tooling saves time by generating code and tests quickly, but quality com
 - Current code (only the relevant functions)
 - Any errors/logs (minimal)
 - If the repo is new: a minimal package scaffold + tests (see [Bootstrap a package for agentic work](../recipes/bootstrap-a-package-for-agentic-work/))
+- Project conventions that should persist across sessions (see [AGENTS.md](../rigour-track/agents-md/))
 
 ## Prompt (copy/paste)
 
